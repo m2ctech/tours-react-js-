@@ -1,0 +1,105 @@
+.singletour {
+  width: 40vw;
+  margin: 0 auto;
+  background-color: white;
+  height: 80vh;
+  border-radius: 1rem;
+  margin: 20px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.pic {
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10px;
+  width: 95%;
+}
+
+.deletebtn {
+  margin-top: 20px;
+  color: red;
+  border: 2px solid red;
+  padding: 5px 70px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.tourinfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.read {
+  border: transparent;
+  color: lightblue;
+  font-size: 18px;
+  background-color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.tourprice {
+  background-color: lime;
+  border: 1px solid lightseagreen;
+  border-radius: 10px;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.cityname {
+  padding-top: 6px;
+  font-weight: bolder;
+  color: orange;
+  box-sizing: border-box;
+  transition: 0.4s;
+}
+
+.cityname:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+@media (max-width: 1024px) {
+  .pic {
+    height: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .singletour {
+    width: 70vw;
+  }
+  .pic {
+    height: 55%;
+  }
+}
+
+@media (max-width: 640px) {
+  .singletour {
+    width: 90vw;
+  }
+  .pic {
+    height: 55%;
+  }
+}
